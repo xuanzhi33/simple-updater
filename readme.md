@@ -32,5 +32,5 @@ jobs:
 
     steps:
       - name: Update
-        run: curl https://[your_server]/update?repo=[repo_name]&token=${{ secrets.UPDATE_TOKEN }}
+        run: curl "https://[your_server]/update?repo=[repo_name]&token=${{ secrets.UPDATE_TOKEN }}"
 ```
